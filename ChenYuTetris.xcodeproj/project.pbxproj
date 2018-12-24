@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DD713F6B21D0DDF500F44956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F6A21D0DDF500F44956 /* AppDelegate.swift */; };
-		DD713F6D21D0DDF500F44956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F6C21D0DDF500F44956 /* ViewController.swift */; };
 		DD713F7021D0DDF500F44956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD713F6E21D0DDF500F44956 /* Main.storyboard */; };
 		DD713F7221D0DDF900F44956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD713F7121D0DDF900F44956 /* Assets.xcassets */; };
 		DD713F7521D0DDF900F44956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD713F7321D0DDF900F44956 /* LaunchScreen.storyboard */; };
+		DD713F7F21D11B0000F44956 /* MovingFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7C21D11B0000F44956 /* MovingFigure.swift */; };
+		DD713F8021D11B0000F44956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7D21D11B0000F44956 /* ViewController.swift */; };
+		DD713F8121D11B0000F44956 /* StaticFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7E21D11B0000F44956 /* StaticFigure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD713F6721D0DDF500F44956 /* ChenYuTetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChenYuTetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD713F6A21D0DDF500F44956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD713F6C21D0DDF500F44956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD713F6F21D0DDF500F44956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD713F7121D0DDF900F44956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD713F7421D0DDF900F44956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD713F7621D0DDF900F44956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD713F7C21D11B0000F44956 /* MovingFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingFigure.swift; sourceTree = "<group>"; };
+		DD713F7D21D11B0000F44956 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Downloads/ViewController.swift; sourceTree = "<group>"; };
+		DD713F7E21D11B0000F44956 /* StaticFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticFigure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				DD713F6A21D0DDF500F44956 /* AppDelegate.swift */,
-				DD713F6C21D0DDF500F44956 /* ViewController.swift */,
+				DD713F7D21D11B0000F44956 /* ViewController.swift */,
+				DD713F7E21D11B0000F44956 /* StaticFigure.swift */,
+				DD713F7C21D11B0000F44956 /* MovingFigure.swift */,
 				DD713F6E21D0DDF500F44956 /* Main.storyboard */,
 				DD713F7121D0DDF900F44956 /* Assets.xcassets */,
 				DD713F7321D0DDF900F44956 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD713F6D21D0DDF500F44956 /* ViewController.swift in Sources */,
+				DD713F7F21D11B0000F44956 /* MovingFigure.swift in Sources */,
+				DD713F8021D11B0000F44956 /* ViewController.swift in Sources */,
 				DD713F6B21D0DDF500F44956 /* AppDelegate.swift in Sources */,
+				DD713F8121D11B0000F44956 /* StaticFigure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUH275Z6TK;
 				INFOPLIST_FILE = ChenYuTetris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUH275Z6TK;
 				INFOPLIST_FILE = ChenYuTetris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
