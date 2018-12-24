@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="api-NP-aRp">
-                                <rect key="frame" x="134.5" y="499" width="106" height="68"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" restorationIdentifier="buttonStack" axis="vertical" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="api-NP-aRp">
+                                <rect key="frame" x="134.5" y="589" width="106" height="68"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulz-os-9Ik">
                                         <rect key="frame" x="38" y="0.0" width="30" height="30"/>
@@ -46,8 +46,8 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V0z-f7-N6V">
-                                <rect key="frame" x="0.0" y="-72" width="375" height="562.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="76" y="55" width="223" height="460"/>
+                                <color key="backgroundColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="V0z-f7-N6V" secondAttribute="height" multiplier="12:18" id="NGR-Aw-s3H"/>
                                 </constraints>
@@ -55,8 +55,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="V0z-f7-N6V" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="68G-U5-x9V"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="api-NP-aRp" secondAttribute="bottom" constant="100" id="6Dl-jm-Xv8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="api-NP-aRp" secondAttribute="bottom" constant="10" id="6Dl-jm-Xv8"/>
+                            <constraint firstItem="V0z-f7-N6V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="9qg-T2-tIf"/>
                             <constraint firstItem="V0z-f7-N6V" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="W9m-uc-is5"/>
                             <constraint firstItem="api-NP-aRp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g14-Yb-zBF"/>
                         </constraints>
