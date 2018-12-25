@@ -12,8 +12,8 @@
 		DD713F7221D0DDF900F44956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD713F7121D0DDF900F44956 /* Assets.xcassets */; };
 		DD713F7521D0DDF900F44956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD713F7321D0DDF900F44956 /* LaunchScreen.storyboard */; };
 		DD713F7F21D11B0000F44956 /* MovingFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7C21D11B0000F44956 /* MovingFigure.swift */; };
-		DD713F8021D11B0000F44956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7D21D11B0000F44956 /* ViewController.swift */; };
 		DD713F8121D11B0000F44956 /* StaticFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7E21D11B0000F44956 /* StaticFigure.swift */; };
+		DD713F8321D20CE900F44956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F8221D20CE900F44956 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		DD713F7421D0DDF900F44956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD713F7621D0DDF900F44956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD713F7C21D11B0000F44956 /* MovingFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingFigure.swift; sourceTree = "<group>"; };
-		DD713F7D21D11B0000F44956 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Downloads/ViewController.swift; sourceTree = "<group>"; };
 		DD713F7E21D11B0000F44956 /* StaticFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticFigure.swift; sourceTree = "<group>"; };
+		DD713F8221D20CE900F44956 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +58,14 @@
 		DD713F6921D0DDF500F44956 /* ChenYuTetris */ = {
 			isa = PBXGroup;
 			children = (
-				DD713F6A21D0DDF500F44956 /* AppDelegate.swift */,
-				DD713F7D21D11B0000F44956 /* ViewController.swift */,
-				DD713F7E21D11B0000F44956 /* StaticFigure.swift */,
-				DD713F7C21D11B0000F44956 /* MovingFigure.swift */,
 				DD713F6E21D0DDF500F44956 /* Main.storyboard */,
-				DD713F7121D0DDF900F44956 /* Assets.xcassets */,
 				DD713F7321D0DDF900F44956 /* LaunchScreen.storyboard */,
 				DD713F7621D0DDF900F44956 /* Info.plist */,
+				DD713F6A21D0DDF500F44956 /* AppDelegate.swift */,
+				DD713F7E21D11B0000F44956 /* StaticFigure.swift */,
+				DD713F8221D20CE900F44956 /* ViewController.swift */,
+				DD713F7C21D11B0000F44956 /* MovingFigure.swift */,
+				DD713F7121D0DDF900F44956 /* Assets.xcassets */,
 			);
 			path = ChenYuTetris;
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD713F7F21D11B0000F44956 /* MovingFigure.swift in Sources */,
-				DD713F8021D11B0000F44956 /* ViewController.swift in Sources */,
 				DD713F6B21D0DDF500F44956 /* AppDelegate.swift in Sources */,
+				DD713F8321D20CE900F44956 /* ViewController.swift in Sources */,
 				DD713F8121D11B0000F44956 /* StaticFigure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
