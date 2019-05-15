@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  CYTAppDelegate.swift
 //  ChenYuTetris
 //
 //  Created by 陈宇 on 2018/12/24.
@@ -9,11 +9,10 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class CYTAppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

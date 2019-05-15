@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD713F6B21D0DDF500F44956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F6A21D0DDF500F44956 /* AppDelegate.swift */; };
-		DD713F7021D0DDF500F44956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD713F6E21D0DDF500F44956 /* Main.storyboard */; };
-		DD713F7221D0DDF900F44956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD713F7121D0DDF900F44956 /* Assets.xcassets */; };
+		DD713F7021D0DDF500F44956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD713F6E21D0DDF500F44956 /* Main.storyboard */; settings = {ASSET_TAGS = (stack1, ); }; };
 		DD713F7521D0DDF900F44956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD713F7321D0DDF900F44956 /* LaunchScreen.storyboard */; };
-		DD713F7F21D11B0000F44956 /* MovingFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7C21D11B0000F44956 /* MovingFigure.swift */; };
-		DD713F8121D11B0000F44956 /* StaticFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F7E21D11B0000F44956 /* StaticFigure.swift */; };
-		DD713F8321D20CE900F44956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD713F8221D20CE900F44956 /* ViewController.swift */; };
+		DDF45E11228B0CFA00CD10F3 /* CYTTetromino.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF45E09228B0CF900CD10F3 /* CYTTetromino.swift */; };
+		DDF45E12228B0CFA00CD10F3 /* CYTGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF45E0A228B0CF900CD10F3 /* CYTGame.swift */; };
+		DDF45E13228B0CFA00CD10F3 /* CYTGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF45E0B228B0CFA00CD10F3 /* CYTGameView.swift */; };
+		DDF45E15228B0CFA00CD10F3 /* CYTAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF45E0D228B0CFA00CD10F3 /* CYTAppDelegate.swift */; };
+		DDF45E16228B0CFA00CD10F3 /* CYTGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF45E0E228B0CFA00CD10F3 /* CYTGameViewController.swift */; };
+		DDF45E17228B0CFA00CD10F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF45E0F228B0CFA00CD10F3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD713F6721D0DDF500F44956 /* ChenYuTetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChenYuTetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD713F6A21D0DDF500F44956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD713F6F21D0DDF500F44956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD713F7121D0DDF900F44956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD713F7421D0DDF900F44956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD713F7621D0DDF900F44956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD713F7C21D11B0000F44956 /* MovingFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingFigure.swift; sourceTree = "<group>"; };
-		DD713F7E21D11B0000F44956 /* StaticFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticFigure.swift; sourceTree = "<group>"; };
-		DD713F8221D20CE900F44956 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDF437BF228BDC33006BFB86 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DDF437C0228BDC33006BFB86 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		DDF45E09228B0CF900CD10F3 /* CYTTetromino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYTTetromino.swift; sourceTree = "<group>"; };
+		DDF45E0A228B0CF900CD10F3 /* CYTGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYTGame.swift; sourceTree = "<group>"; };
+		DDF45E0B228B0CFA00CD10F3 /* CYTGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYTGameView.swift; sourceTree = "<group>"; };
+		DDF45E0D228B0CFA00CD10F3 /* CYTAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYTAppDelegate.swift; sourceTree = "<group>"; };
+		DDF45E0E228B0CFA00CD10F3 /* CYTGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYTGameViewController.swift; sourceTree = "<group>"; };
+		DDF45E0F228B0CFA00CD10F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +62,15 @@
 		DD713F6921D0DDF500F44956 /* ChenYuTetris */ = {
 			isa = PBXGroup;
 			children = (
-				DD713F6E21D0DDF500F44956 /* Main.storyboard */,
+				DDF45E0F228B0CFA00CD10F3 /* Assets.xcassets */,
 				DD713F7321D0DDF900F44956 /* LaunchScreen.storyboard */,
+				DD713F6E21D0DDF500F44956 /* Main.storyboard */,
+				DDF45E0D228B0CFA00CD10F3 /* CYTAppDelegate.swift */,
+				DDF45E0E228B0CFA00CD10F3 /* CYTGameViewController.swift */,
+				DDF45E0B228B0CFA00CD10F3 /* CYTGameView.swift */,
+				DDF45E0A228B0CF900CD10F3 /* CYTGame.swift */,
+				DDF45E09228B0CF900CD10F3 /* CYTTetromino.swift */,
 				DD713F7621D0DDF900F44956 /* Info.plist */,
-				DD713F6A21D0DDF500F44956 /* AppDelegate.swift */,
-				DD713F7E21D11B0000F44956 /* StaticFigure.swift */,
-				DD713F8221D20CE900F44956 /* ViewController.swift */,
-				DD713F7C21D11B0000F44956 /* MovingFigure.swift */,
-				DD713F7121D0DDF900F44956 /* Assets.xcassets */,
 			);
 			path = ChenYuTetris;
 			sourceTree = "<group>";
@@ -96,6 +101,9 @@
 		DD713F5F21D0DDF500F44956 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					stack1,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "陈宇";
@@ -129,8 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD713F7521D0DDF900F44956 /* LaunchScreen.storyboard in Resources */,
-				DD713F7221D0DDF900F44956 /* Assets.xcassets in Resources */,
 				DD713F7021D0DDF500F44956 /* Main.storyboard in Resources */,
+				DDF45E17228B0CFA00CD10F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD713F7F21D11B0000F44956 /* MovingFigure.swift in Sources */,
-				DD713F6B21D0DDF500F44956 /* AppDelegate.swift in Sources */,
-				DD713F8321D20CE900F44956 /* ViewController.swift in Sources */,
-				DD713F8121D11B0000F44956 /* StaticFigure.swift in Sources */,
+				DDF45E13228B0CFA00CD10F3 /* CYTGameView.swift in Sources */,
+				DDF45E15228B0CFA00CD10F3 /* CYTAppDelegate.swift in Sources */,
+				DDF45E12228B0CFA00CD10F3 /* CYTGame.swift in Sources */,
+				DDF45E11228B0CFA00CD10F3 /* CYTTetromino.swift in Sources */,
+				DDF45E16228B0CFA00CD10F3 /* CYTGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +164,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD713F6F21D0DDF500F44956 /* Base */,
+				DDF437C0228BDC33006BFB86 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +173,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD713F7421D0DDF900F44956 /* Base */,
+				DDF437BF228BDC33006BFB86 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +185,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -235,6 +247,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
