@@ -9,7 +9,9 @@
 import Foundation
 
 struct CYTTetromino {
+    
     // MARK: - Tetromino Case
+    
     enum TetrominoType:Int {
         case I = 1
         case J = 2
@@ -43,7 +45,7 @@ struct CYTTetromino {
         case .J:
             switch self.orient {
             case .up:
-                return [[false,true],[false,true],[true,true]]//J
+                return [[false,true],[false,true],[true,true]] //J
             case .down:
                 return [[true,true],[true,false],[true,false]] //J🔄
             case .left:
@@ -77,11 +79,11 @@ struct CYTTetromino {
             case .up:
                 return [[true,true,true],[false,true,false]]//T
             case .down:
-                return [[false,true,false],[true,true,true]]//丄
+                return [[false,true,false],[true,true,true]]//T🔄
             case .left:
-                return [[true,false],[true,true],[true,false]]//卜
+                return [[true,false],[true,true],[true,false]] //T↩️
             case .right:
-                return [[false,true],[true,true],[false,true]]//反卜
+                return [[false,true],[true,true],[false,true]] //T↪️
             }
         case .Z:
             switch self.orient {
@@ -109,6 +111,7 @@ struct CYTTetromino {
     }
     
     // MARK: - Initialize Randomly
+    
     init() {
         self.type = CYTTetromino.TetrominoType(rawValue: Int.random(in: 1...7))!
         self.orient = CYTTetromino.Orient(rawValue: Int.random(in: 1...4))!
