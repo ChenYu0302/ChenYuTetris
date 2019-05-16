@@ -6,8 +6,8 @@
 3. Controller：视图控制器文件 ```CYTGameViewController.swift```
 
 ## 操作游戏、获得分数 
-![Playing Game](/gif/PlayingGame.gif)
+![Playing Game](https://github.com/ChenYu0302/ChenYuTetris/blob/master/gif/PlayingGame.gif)
 
 ## 操作结束，开始新游戏
-![Game Ends](/gif/GameEnds.gif)
+![Game Ends](https://github.com/ChenYu0302/ChenYuTetris/blob/master/gif/GameEnds.gif)
 
